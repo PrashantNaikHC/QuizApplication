@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Quiz Application</string>
+    <string name="question_one">Which one of the following is the natural satallite of the Earth?</string>
+    <string name="question_one_A">Moon</string>
+    <string name="submit_and_continue">Submit and continue</string>
+    <string name="question_one_B">International Space Station</string>
+    <string name="question_one_C">Titan</string>
+    <string name="question_one_D">Sun</string>
+    <string name="question_two">Which is the biggest continent in the world?</string>
+    <string name="question_two_A">Europe</string>
+    <string name="question_two_B">Asia</string>
+    <string name="question_two_C">Australia</string>
+    <string name="question_two_D">Russia</string>
+    <string name="question_three">Which of the below companies manufacture Automobiles?</string>
+    <string name="question_three_A">Audi</string>
+    <string name="question_three_B">Microsoft</string>
+    <string name="question_three_D">Lenovo</string>
+    <string name="question_three_C">Nissan</string>
+    <string name="question_four">What is the name of one of the leading electric car manufacturer which produces the model \"Roadster\".</string>
+    <string name="hint">Enter the Answer here</string>
+    <string name="welcome_string">Welcome to the Quiz application. \n\nPlease answer the next four question to check your general knowledge.</string>
+</resources>

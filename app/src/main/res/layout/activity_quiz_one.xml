@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_margin="@dimen/default_margin"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="@string/question_one"
+        android:textSize="@dimen/question_textSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
+
+    <RadioGroup
+        android:padding="@dimen/default_margin"
+        android:layout_above="@+id/quizOneSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_weight="1"
+            android:background="?android:attr/listDivider" />
+
+        <RadioButton
+            android:onClick="onRadioButtonClicked"
+            android:padding="@dimen/option_margin"
+            android:textSize="@dimen/option_textSize"
+            android:text="@string/question_one_A"
+            android:id="@+id/radio_button_one"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_weight="1"
+            android:background="?android:attr/listDivider" />
+
+        <RadioButton
+            android:padding="@dimen/option_margin"
+            android:onClick="onRadioButtonClicked"
+            android:text="@string/question_one_B"
+            android:id="@+id/radio_button_two"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_weight="1"
+            android:background="?android:attr/listDivider" />
+
+        <RadioButton
+            android:id="@+id/radio_button_three"
+            android:padding="@dimen/option_margin"
+            android:onClick="onRadioButtonClicked"
+            android:textSize="@dimen/option_textSize"
+            android:text="@string/question_one_C"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_weight="1"
+            android:background="?android:attr/listDivider" />
+
+        <RadioButton
+            android:id="@+id/radio_button_four"
+            android:padding="@dimen/option_margin"
+            android:onClick="onRadioButtonClicked"
+            android:textSize="@dimen/option_textSize"
+            android:text="@string/question_one_D"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_weight="1"
+            android:background="?android:attr/listDivider" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/quizOneSubmit"
+        style="@style/Button_style"/>
+</RelativeLayout>

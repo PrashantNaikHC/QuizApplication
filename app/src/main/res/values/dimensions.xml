@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="default_margin">16dp</dimen>
+    <dimen name="option_margin">16dp</dimen>
+
+    <dimen name="question_textSize">24sp</dimen>
+    <dimen name="option_textSize">12sp</dimen>
+
+</resources>

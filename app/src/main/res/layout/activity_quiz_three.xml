@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_margin="@dimen/default_margin"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/question_three"
+            android:textSize="@dimen/question_textSize" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:padding="@dimen/default_margin"
+        android:layout_above="@+id/quizThreeSubmit"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="?android:attr/listDivider" />
+
+        <CheckBox
+            android:id="@+id/check_box_one"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onCheckboxClicked"
+            android:padding="@dimen/option_margin"
+            android:text="@string/question_three_A"
+            android:textSize="@dimen/option_textSize" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="?android:attr/listDivider" />
+
+        <CheckBox
+            android:id="@+id/check_box_two"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onCheckboxClicked"
+            android:padding="@dimen/option_margin"
+            android:text="@string/question_three_B"
+            android:textSize="@dimen/option_textSize" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="?android:attr/listDivider" />
+
+        <CheckBox
+            android:id="@+id/check_box_three"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onCheckboxClicked"
+            android:padding="@dimen/option_margin"
+            android:text="@string/question_three_C"
+            android:textSize="@dimen/option_textSize" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="?android:attr/listDivider" />
+
+        <CheckBox
+            android:id="@+id/check_box_four"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onCheckboxClicked"
+            android:padding="@dimen/option_margin"
+            android:text="@string/question_three_D"
+            android:textSize="@dimen/option_textSize" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="?android:attr/listDivider" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/quizThreeSubmit"
+        style="@style/Button_style" />
+</RelativeLayout>
